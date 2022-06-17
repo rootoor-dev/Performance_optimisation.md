@@ -55,7 +55,7 @@ for (int i=0 ; i<M ; ++i)
   }
 }
 
-# to be OPTIMISED
+# ... to be OPTIMISED
 
 // first decrement
 for (int i = M-1 ; i >=0 ; --i) // for (int i = M ; --i >= 0 ;)
@@ -67,8 +67,9 @@ for (int i = M-1 ; i >=0 ; --i) // for (int i = M ; --i >= 0 ;)
   }
 }
 
-# Other OPTIMISATION
+# Other OPTIMISATIONS
 
+// // N° 1
 // first decrement
 for (int i = M ; --i >= 0 ;)
 {
@@ -79,12 +80,34 @@ for (int i = M ; --i >= 0 ;)
   }
 }
 
+// // N°2
+
+//You may omit any of the three exprs in the for loop header
+
+int value;
+int incrementAmount;
+
+for ( ; startingvalue <= 100; )
+{
+ startingvalue = startingvalue + incrementAmount;
+}
+// technically it’s a count controlled loop, but use a while
+
+```
+# Pre-incrementation and Post-incrementation
+
+```Java
+# Post-Incre/Decre/mentation
+num++; //equivalent to: num = num + 1;
+num--; //equivalent to: num = num - 1;
+
+# Pre-Incre/Decre/mentation
+++num; //equivalent to: num = num + 1;
+--num; //equivalent to: num = num - 1;
+
 ```
 
+# Explanations to be found here
 
-
-
-
-
-
-
+ - [https://www.netjstech.com/2019/06/java-for-loop-with-examples.html](https://www.netjstech.com/2019/06/java-for-loop-with-examples.html)
+ - 
