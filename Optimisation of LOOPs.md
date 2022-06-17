@@ -11,8 +11,8 @@ for (int i=0 ; i<=N-1 ; ++i) {......}
 for (int i = N ; i > 0 ; --i) {.....}
  // or 
 for (int i = N-1 ; i >= 0 ; --i) {.....}
-
-# other decrement
+// other decrement
+for (int i = N ; --i >= 0 ;) {.....}
 
 ```
 
@@ -32,6 +32,10 @@ for (int i = N ; i > 0 ; --i) {.....}
  // or to
 
 for (int i = N-1 ; i >= 0 ; --i) {.....}
+
+ // other decrement
+ 
+for (int i = N ; --i >= 0 ;) {.....}
 
 ```
 
@@ -54,7 +58,7 @@ for (int i=0 ; i<M ; ++i)
 # to be OPTIMISED
 
 // first decrement
-for (int i = M-1 ; i >=0 ; --i) 
+for (int i = M-1 ; i >=0 ; --i) // for (int i = M ; --i >= 0 ;)
 {
   // second increment
   for (int j=0 ; j<N ; ++j) 
@@ -66,7 +70,7 @@ for (int i = M-1 ; i >=0 ; --i)
 # Other OPTIMISATION
 
 // first decrement
-for (int i = M-1 ; i >=0 ; --i) 
+for (int i = M ; --i >= 0 ;)
 {
   // second increment
   for (int j=0 ; j<N ; ++j) 
