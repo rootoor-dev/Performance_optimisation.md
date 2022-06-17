@@ -110,4 +110,7 @@ num--; //equivalent to: num = num - 1;
 # Explanations to be found here
 
  - [https://www.netjstech.com/2019/06/java-for-loop-with-examples.html](https://www.netjstech.com/2019/06/java-for-loop-with-examples.html)
+ - [https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/](https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/)
+ - [https://www.geeksforgeeks.org/analysis-of-algorithms-set-4-analysis-of-loops/](https://www.geeksforgeeks.org/analysis-of-algorithms-set-4-analysis-of-loops/)
+ - [https://www.baeldung.com/java-algorithm-complexity](https://www.baeldung.com/java-algorithm-complexity)
  - 
