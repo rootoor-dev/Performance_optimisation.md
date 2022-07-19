@@ -14,7 +14,7 @@ for (int i = 0; i < N; ++i) {
 Into this:
 
 ```
-for (int ij = 0; ij < N*M; ++ij) { 
+for (int k = 0; k < N*M; ++k) { 
   // ... something 
 } 
 ```
@@ -22,7 +22,7 @@ for (int ij = 0; ij < N*M; ++ij) {
 And, you might need a little bit of compensation code, so you can reconstruct whatever i and j were responsible for in the original loops:
 
 ```
-for (int ij = 0, i = 0, j = 0; ij < N*M; ++ij) { 
+for (int k = 0, i = 0, j = 0; k < N*M; ++k) { 
   // ... something 
  
   if (++j == M) { 
